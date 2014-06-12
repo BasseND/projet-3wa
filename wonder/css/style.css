@@ -1,0 +1,271 @@
+
+
+
+body {
+  background: #D6D3CE;
+  border-top: 5px solid #2C2727;
+  font-family: Georgia, sans-serif;
+}
+
+h1 {
+ text-transform: uppercase;
+ font-size: 22px;
+ font-weight: bold;
+}
+h2 {
+ text-transform: uppercase;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+h2 span{
+ color: #D56129;
+}
+
+/************ HEADER **************/
+header {
+  margin-top: 30px;
+}
+.main-nav{
+background: #35342F;
+width: 529px;
+margin-top: 30px;
+line-height: 40px;
+float: right;
+margin-top: 10px;
+}
+.main-nav ul {
+  margin-top: 15px;
+  margin: 0 auto;
+  padding-left: 6px;
+}
+.main-nav ul li {
+    display:inline-block; 
+   
+}
+.main-nav ul li:last-child {
+    margin-left:0px;
+}
+
+.main-nav ul li a {
+font-weight: bold;
+color: #7A8090;
+padding: 15px 15px;
+text-decoration: none;
+}
+
+.main-nav ul li:last-child {
+    margin-right:0px 
+    }
+.main-nav ul li a:hover{
+  color: #fff; 
+}
+.main-nav ul li.current a{
+color: #fff;
+}
+
+/************ END  HEADER **************/
+
+/************ CONTENT **************/
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: 2px solid #CF1D1D; 
+}
+.wrap-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.logo img {
+ width: 270px;
+ height: 50px;
+ margin-left: 20px;
+}
+img {
+  width: 100%;
+ }
+ #owl-demo {
+  margin-top: 30px;
+ }
+ .slider {
+  margin-top: 30px;
+ }
+ .works {
+  margin-bottom: 45px;
+  margin-top: 30px;
+ }
+.title {
+background: #363636;
+color: #FFF;
+/* line-height: 30px; */
+/* height: 40px; */
+margin: 10px 0;
+padding-top: 10ox;
+margin-bottom: 20px;
+}
+.title h2{
+margin-top: 10px;
+margin-bottom: 0px;
+padding: 10px;
+}
+.content-box {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+}
+.content-box p{
+  text-align: center;
+}
+.content-box h3{
+  text-align: center;
+}
+.content p {
+ text-align: justify;
+ margin-right: 8px;
+}
+.content img {
+  width: 60%;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+  
+}
+/************ END CONTENT **************/
+
+/************ FOOTER **************/
+
+
+footer {
+ background-color:  #363636;
+ color: #fff;
+ margin-bottom: 40px;
+ padding-bottom: 20px;
+}
+footer h3 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+footer h3 , footer a{
+  color: #fff;
+}
+
+.contact img {
+ width: 80%;
+ height: auto;
+}
+.contact p {
+ font-style: italic;
+ font-size: 11px;
+}
+.contact ul {
+ padding-left: 0px;
+}
+.contact ul li{
+ list-style-type: none;
+ background: url('../images/social-icons.png');
+ height: 46px;
+ width: 46px;
+ display:inline-block; 
+}
+.contact ul li:nth-child(1){
+ background: url('../images/social-icons.png') 0 0;
+}
+.contact ul li:hover:nth-child(1){
+ background: url('../images/social-icons.png') 0 -47px;
+ cursor: pointer;
+}
+.contact ul li:nth-child(2){
+ background: url('../images/social-icons.png') -52px 0;
+}
+.contact ul li:hover:nth-child(2){
+ background: url('../images/social-icons.png') -52px -47px;
+ cursor: pointer;
+}
+.contact ul li:nth-child(3){
+ background: url('../images/social-icons.png') -104px 0;
+}
+.contact ul li:hover:nth-child(3){
+background: url('../images/social-icons.png') -104px -47px;
+cursor: pointer;
+}
+.contact ul li:nth-child(4){
+ background: url('../images/social-icons.png') -156px 0;
+}
+.contact ul li:hover:nth-child(4){
+ background: url('../images/social-icons.png') -156px -140px;
+ cursor: pointer;
+}
+.flickr {
+
+}
+.flickr img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+.flickr ul {
+  padding-left: 0px;
+}
+.flickr ul li{
+  display:inline-block;
+}
+.twitt-profil span {
+ color: #6FD0F7;
+}
+.last-post {
+
+}
+.last-post ul{
+  padding-left: 03px;
+}
+
+.last-post ul li{
+  list-style-type: none;
+  padding: 8px 0;
+  border-bottom: 1px dashed #757575;
+  
+}
+
+.footer-bootom {
+ background: #242424;
+ padding: 10px 5px;
+ margin-bottom: 25px;
+ margin-top: 30px;
+}
+.footer-bootom ul {
+ float: right;
+}
+.footer-bootom ul li {
+display: inline-block;
+margin-left: 10px;
+
+}
+/************ END FOOTER **************/
+
+/******* SLIDER ***********/
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.item p{
+  line-height: 1.6;
+  font-size: 16px;
+  color: #757575;
+  font-weight: 700;
+}
+.item span{
+  padding: 5px 16px;
+  background: #A70404;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-style: italic;
+}
+/******* END SLIDER ***********/
